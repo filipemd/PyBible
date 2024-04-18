@@ -34,5 +34,5 @@ def download_version(version):
         with open(f"{directory}/{book}.json", "w") as write_file:
             json.dump(data, write_file)
 
-download_version("nvi")
-download_version("niv")
+download_version("ntlh")
+#download_version("niv")
