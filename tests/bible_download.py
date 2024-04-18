@@ -31,7 +31,7 @@ def download_version(version):
             
             i += 1
             
-        with open(f"{directory}/{book}.json", "a") as write_file:
+        with open(f"{directory}/{book}.json", "w") as write_file:
             json.dump(data, write_file)
 
 download_version("nvi")
