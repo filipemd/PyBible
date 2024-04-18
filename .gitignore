@@ -1,3 +1,6 @@
 .venv
 __pycache__
 bible
+
+.DS_Store
+.DS_Store?
