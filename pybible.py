@@ -11,8 +11,7 @@ def bible(version, book, chapter, verse=0):
 
   result = []
   for verse in verses:
-    if verse.parent.name == "p":
-        result.append(verse.text)
+    result.append(verse.text)
   
   return result
 
